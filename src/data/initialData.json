@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "id": "cspm-executive-dashboard",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "name": "Cloud Accounts",
+          "type": "doughnutChart",
+          "data": {
+            "labels": ["Connected", "Not Connected"],
+            "datasets": [
+              {
+                "data": [2, 2],
+                "backgroundColor": ["#3b82f6", "#bfdbfe"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "cloud-account-risk-assessment",
+          "name": "Cloud Account Risk Assessment",
+          "type": "doughnutChart",
+          "data": {
+            "labels": ["Failed", "Warning", "Not available", "Passed"],
+            "datasets": [
+              {
+                "data": [1689, 681, 436, 7253],
+                "backgroundColor": ["#dc2626", "#fbbf24", "#9ca3af", "#10b981"]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cwpp-dashboard",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "namespace-specific-alerts",
+          "name": "Top 5 Namespace Specific Alerts",
+          "type": "pieChart",
+          "data": {
+            "labels": ["Critical", "System", "Unauthorized", "Network", "Data"],
+            "datasets": [
+              {
+                "data": [1689, 681, 636, 1253, 450],
+                "backgroundColor": ["#fbbf24", "#9ca3af", "#f97316", "#10b981", "#dc2626"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "workload-alerts",
+          "name": "Workload Alerts",
+          "type": "emptyChart",
+          "text": "No graph data available!"
+        }
+      ]
+    },
+    {
+      "id": "registry-scan",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "image-risk-assessment",
+          "name": "Image Risk Assessment",
+          "type": "barChart",
+          "data": {
+            "labels": ["Critical", "High"],
+            "datasets": [
+              {
+                "data": [90, 150],
+                "backgroundColor": ["#dc2626", "#f97316"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "image-security-issues",
+          "name": "Image Security Issues",
+          "type": "barChart",
+          "data": {
+            "labels": ["Critical", "High"],
+            "datasets": [
+              {
+                "data": [65, 35],
+                "backgroundColor": ["#f200ff", "#00f6ff"]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tickets",
+      "name": "Tickets",
+      "widgets": [
+        {
+          "id": "first-class",
+          "name": "First Class",
+          "type": "barChart",
+          "data": {
+            "labels": ["Men", "Women", "Kids", "Staff"],
+            "datasets": [
+              {
+                "data": [90, 50, 20, 70],
+                "backgroundColor": ["#930000", "green", "#9ef409", "#00bfff"]
+              }
+            ]
+          }
+        },
+        {
+          "id": "second-class",
+          "name": "Second Class",
+          "type": "barChart",
+          "data": {
+            "labels": ["Men", "Women", "Kids", "Staff"],
+            "datasets": [
+              {
+                "data": [500, 600, 200, 300],
+                "backgroundColor": ["#00ff72", "#ff47be", "#602a9e", "#2a9e8e"]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
