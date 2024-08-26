@@ -16,7 +16,7 @@ Before you start, make sure you have the following installed on your computer:
 
 #### 1. Download the ZIP File from GitHub
 
-1. Go to the [GitHub Repository](#) (replace `#` with your actual repository URL).
+1. Go to the [GitHub Repository](https://github.com/vyomPundhir/Dashboard_Assessment).
 2. Click on the green `Code` button at the top right of the repository page.
 3. In the dropdown menu, click on `Download ZIP`.
 4. The ZIP file of the repository will start downloading to your computer.
